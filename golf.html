@@ -1,0 +1,13 @@
+﻿<body id=b><script>for(i=17;i--;)b.innerHTML+="<div class="+((i>15)?"c":(i>11)?"b":((i%4)<2)?"a":"d")+" style='position:absolute;left:"+((i/4|0)*27)+"vmin;top:"+((i%4)*24)+"vmin'><h2>"+((j="udevcsµvtbτvgYZWH")[i])+"<sup>"+((i<12&&(i%4)==2)?"-":" ")+"</sup><sub>"+((i<12&&(i%4)==3)?j[i-1]:" ")+"</sub></h2><h3>"+(["up","down","electron","electron neutrino","charm","strange","muon","muon neutrino","top","bottom","tau","tau neutrino","gluon","photon","Z boson","W boson","Higgs boson"][i])+"</h3>"+(["2.2M","4.7M","0.51M","<2.2","1.27G","95M","105.66M","<0.17M","172.6G","4.18G","1.777G","<15.5M","0","0","91.9G","80.38G","124.97G"][i])+"eV/c²<p>"+([...(k=["2/3","-1/3",-1,0]),...k,...k,0,0,0,0,"±1",0][i])+"<p>"+(i>15?0:i>11?1:"1/2")+"</div>"</script>
+
+
+<style>
+div{width:20vmin;height:17vmin;border:1vmin solid;border-radius:3vmin;padding:1.5vmin;font:bold 2vmin/.2 arial;box-shadow:.7vmin .7vmin 0 #bbb}
+.a,.a h2:after{border-color:#e8f}
+.b,.b h2:after{border-color:#f44}
+.c,.c h2:after{border-color:#fd5}
+.d,.d h2:after{border-color:#9e5}
+h2{font:bold 6vmin/.7 arial;position:absolute;width:18vmin;text-align:center;margin-left:1vmin}
+h2:after{content:"";display:block;width:0;margin:-8.2vmin 0 0 2.4vmin;border:6vmin solid;border-radius:6vmin;box-shadow:1vmin .5vmin 0 #aaa}
+h3{font:bold 2.5vmin/11 arial;position:absolute;width:21vmin;text-align:center}
+</style>
